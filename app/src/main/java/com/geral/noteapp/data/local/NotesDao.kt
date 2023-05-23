@@ -11,7 +11,7 @@ interface NotesDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertNotes(note: NotesEntity)
 
-    @Query("SELECT * FROM note")
+    @Query("SELECT * FROM note ORDER BY noteId DESC")
     fun getAllNotes(): Flow<List<NotesEntity>>
 
     @Query("UPDATE note SET isComplete = :isComplete WHERE noteId = :noteId")
