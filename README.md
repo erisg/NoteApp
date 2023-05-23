@@ -21,8 +21,7 @@
 - Repository pattern
 - StateFlow
 - Dagger Hilt (Dependency injection)
-- Unit testing (Truth by google)
-- UI testing
+- Unit testing
 - Mock web server
 - Moshi
 - Mvvm
