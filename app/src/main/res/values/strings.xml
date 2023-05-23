@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="welcome_message">Welcome !</string>
+    <string name="add_note">Add note</string>
+    <string name="delete_message">Are you sure you want to delete it?</string>
+    <string name="dialog_title">Add Title</string>
+    <string name="dialog_description">Add Description</string>
+    <string name="empty_notes_message">Add a new note</string>
+    <string name="error_message">Ups ! something is wrong</string>
+</resources>
