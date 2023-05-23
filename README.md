@@ -10,7 +10,6 @@
 
 ### Requirements to install the app
 
-- Having an internet connection
 - Using phones with Android Api 21+
 
 ##### This application was developed using Kotlin and uses the following components:
@@ -22,9 +21,7 @@
 - Repository pattern
 - StateFlow
 - Dagger Hilt (Dependency injection)
-- Unit testing (Truth by google)
-- UI testing
-- Mock web server
+- Unit testing
 - Moshi
 - Mvvm
 
