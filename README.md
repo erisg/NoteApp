@@ -22,7 +22,6 @@
 - StateFlow
 - Dagger Hilt (Dependency injection)
 - Unit testing
-- Mock web server
 - Moshi
 - Mvvm
 
