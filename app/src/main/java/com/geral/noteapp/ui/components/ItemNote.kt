@@ -72,13 +72,14 @@ fun ItemNote(
         ) {
             CheckButtonComponent(
                 isSelected = note.isComplete,
-            ) {
-                if (note.isComplete) {
-                    onClickComplete.invoke(false, note.id)
-                } else {
-                    onClickComplete.invoke(true, note.id)
-                }
-            }
+                onClick = {
+                    if (note.isComplete) {
+                        onClickComplete.invoke(false, note.id)
+                    } else {
+                        onClickComplete.invoke(true, note.id)
+                    }
+                },
+            )
             Icon(
                 imageVector = Icons.Default.Delete,
                 contentDescription = "Menu",
